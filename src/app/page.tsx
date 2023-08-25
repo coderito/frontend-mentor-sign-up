@@ -89,7 +89,7 @@ export default function Home() {
 
               <button
                 type="submit"
-                className="bg-[#242743] mt-4 text-center py-4 text-white rounded-md font-semibold tracking-wide text-[13px] w-full"
+                className="bg-[#242743] mt-4 text-center py-4 text-white rounded-md font-semibold tracking-wide  md:text-sm w-full"
               >
                 Subscribe to monthly newsletter
               </button>
@@ -100,7 +100,7 @@ export default function Home() {
           <div className="hidden lg:block h-full">
             {" "}
             {/* Solo visible en dispositivos medianos y grandes */}
-            <Image src={desktopImage} alt="Desktop Image" height={500} />
+            <Image src={desktopImage} alt="Desktop Image" className="h-full" />
           </div>
           <div className="block md:hidden w-full">
             {" "}
